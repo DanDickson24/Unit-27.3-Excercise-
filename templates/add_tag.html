@@ -1,0 +1,15 @@
+<!-- add_tag.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Add Tag</title>
+  </head>
+  <body>
+    <h1>Add Tag</h1>
+    <form method="POST" action="{{ url_for('create_tag') }}">
+      <label for="name">Tag Name:</label>
+      <input type="text" id="name" name="name" required>
+      <button type="submit">Add</button>
+    </form>
+  </body>
+</html>

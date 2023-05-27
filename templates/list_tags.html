@@ -1,0 +1,15 @@
+<!-- list_tags.html -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tags</title>
+  </head>
+  <body>
+    <h1>Tags</h1>
+    <ul>
+      {% for tag in tags %}
+        <li>{{ tag.name }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>
